@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import First from './First';
+import Form from './Form';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <First />
+        <Form />
+
+        <img src={logo} id="logo" className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
